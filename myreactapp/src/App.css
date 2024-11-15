@@ -29,7 +29,7 @@
   box-shadow: var(--border-window-outer), var(--border-window-inner);
   padding: 2px;
   max-width: 320px; /* Adjust the max-width as needed */
-  margin: 0 auto; /* Center horizontally */
+  margin: auto; /* Center horizontally */
   position: relative;
   display: inline-block; /* Prevents it from taking full width */
 }

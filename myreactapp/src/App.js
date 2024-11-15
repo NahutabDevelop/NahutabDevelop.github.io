@@ -31,15 +31,9 @@ const DraggableWindow = () => {
 
   return (
     isVisible && (
-      <Draggable handle=".title-bar" disabled={isMaximized}>
+      <Draggable handle=".title-bar">
         <div className={`draggable-window${isMaximized ? `-maximized` : ``}`}>
-          <div
-            className="window"
-            style={{
-              height: "100%",
-              width: "100%",
-            }}
-          >
+          <div className="window">
             <div className="title-bar">
               <div className="title-bar-text">
                 <img
@@ -50,7 +44,7 @@ const DraggableWindow = () => {
                 Biography
               </div>
               <div className="title-bar-controls">
-                <button aria-label="Minimize"></button>
+                <button aria-label="Minimize" onClick={handleClose}></button>
                 <button aria-label="Maximize" onClick={handleMaximise}></button>
                 <button aria-label="Close" onClick={handleClose}></button>
               </div>
