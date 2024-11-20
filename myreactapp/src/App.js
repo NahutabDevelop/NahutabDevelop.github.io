@@ -7,12 +7,8 @@ import "./App.css";
 function App() {
   return (
     <div className="background-container">
-      <div>
-        <DraggableWindow />
-      </div>
-      <div>
-        <NavigationBar />
-      </div>
+      <DraggableWindow />
+      <NavigationBar />
     </div>
   );
 }
@@ -20,6 +16,7 @@ function App() {
 const DraggableWindow = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [isMaximized, setIsMaximized] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
 
   const handleClose = () => {
     setIsVisible(false);
@@ -29,10 +26,20 @@ const DraggableWindow = () => {
     setIsMaximized(!isMaximized);
   };
 
+  const handleDrag = (e, data) => {
+    setPosition({ x: data.x, y: data.y });
+  };
+
   return (
     isVisible && (
-      <Draggable handle=".title-bar">
-        <div className={`draggable-window${isMaximized ? `-maximized` : ``}`}>
+      <Draggable
+        handle=".title-bar"
+        bounds="parent"
+        disabled={isMaximized}
+        position={isMaximized ? { x: 0, y: 0 } : position} // use position when not maximized
+        onDrag={handleDrag} // update position during dragging
+      >
+        <div className={`draggable-window ${isMaximized ? "maximized" : ""}`}>
           <div className="window">
             <div className="title-bar">
               <div className="title-bar-text">
