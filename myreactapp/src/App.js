@@ -71,7 +71,22 @@ const NavigationBar = () => {
     <div
       className="navbar-container"
       style={{ position: "absolute", bottom: 0, zIndex: 9999 }}
-    ></div>
+    >
+      {" "}
+      <StartButton />{" "}
+    </div>
+  );
+};
+
+const StartButton = () => {
+  const handleClick = () => {
+    console.log("Start button clicked");
+  };
+
+  return (
+    <button className="start-button-wrapper" onClick={handleClick}>
+      <div className="start-button"></div>
+    </button>
   );
 };
 
