@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb204705.css",
-    "main.js": "/static/js/main.ea67570f.js",
-    "static/js/453.e2d748fa.chunk.js": "/static/js/453.e2d748fa.chunk.js",
-    "static/media/ms_sans_serif.woff": "/static/media/ms_sans_serif.aac84aa6de42b83d1a62.woff",
-    "static/media/ms_sans_serif_bold.woff": "/static/media/ms_sans_serif_bold.9fbe71248995f1c639d4.woff",
-    "static/media/ms_sans_serif.woff2": "/static/media/ms_sans_serif.0348082abb503fb6a8c2.woff2",
-    "static/media/ms_sans_serif_bold.woff2": "/static/media/ms_sans_serif_bold.7fcf57cc6e87ecddbf64.woff2",
-    "index.html": "/index.html",
-    "main.bb204705.css.map": "/static/css/main.bb204705.css.map",
-    "main.ea67570f.js.map": "/static/js/main.ea67570f.js.map",
-    "453.e2d748fa.chunk.js.map": "/static/js/453.e2d748fa.chunk.js.map"
+    "main.css": "/nahutabsite/static/css/main.28366fbd.css",
+    "main.js": "/nahutabsite/static/js/main.9cdffc91.js",
+    "static/js/453.e2d748fa.chunk.js": "/nahutabsite/static/js/453.e2d748fa.chunk.js",
+    "static/media/ms_sans_serif.woff": "/nahutabsite/static/media/ms_sans_serif.aac84aa6de42b83d1a62.woff",
+    "static/media/ms_sans_serif_bold.woff": "/nahutabsite/static/media/ms_sans_serif_bold.9fbe71248995f1c639d4.woff",
+    "static/media/ms_sans_serif.woff2": "/nahutabsite/static/media/ms_sans_serif.0348082abb503fb6a8c2.woff2",
+    "static/media/ms_sans_serif_bold.woff2": "/nahutabsite/static/media/ms_sans_serif_bold.7fcf57cc6e87ecddbf64.woff2",
+    "index.html": "/nahutabsite/index.html",
+    "main.28366fbd.css.map": "/nahutabsite/static/css/main.28366fbd.css.map",
+    "main.9cdffc91.js.map": "/nahutabsite/static/js/main.9cdffc91.js.map",
+    "453.e2d748fa.chunk.js.map": "/nahutabsite/static/js/453.e2d748fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb204705.css",
-    "static/js/main.ea67570f.js"
+    "static/css/main.28366fbd.css",
+    "static/js/main.9cdffc91.js"
   ]
 }
