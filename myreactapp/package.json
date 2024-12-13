@@ -1,7 +1,7 @@
 {
   "name": "myreactapp",
   "version": "0.1.0",
-  "homepage": "https://NahutabDevelop.github.io/NahutabDevelop.github.io",
+  "homepage": "https://nahutabdevelop.github.io/NahutabDevelop.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
